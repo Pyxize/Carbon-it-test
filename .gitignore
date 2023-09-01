@@ -1,0 +1,76 @@
+node_modules/
+.node_modules/
+built/*
+tests/cases/rwc/*
+tests/cases/perf/*
+!tests/cases/webharness/compilerToString.js
+test-args.txt
+~*.docx
+\#*\#
+.\#*
+rwc-report.html
+*.swp
+build.json
+*.actual
+*.config
+coverage/
+internal/
+yarn.lock
+yarn-error.log
+.parallelperf.*
+tests/baselines/reference/dt
+.failed-tests
+TEST-results.xml
+package-lock.json
+.eslintcache
+*v8.log
+/lib/
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+tmp
+
+# Build
+public/css/main.css
+
+# Coverage reports
+coverage
+
+# API keys and secrets
+.env
+
+# Dependency directory
+bower_components
+
+# Editors
+*.iml
+**/.DS_Store
+.settings
+**/.vs
+**/.vscode/*
+!**/.vscode/tasks.json
+!**/.vscode/settings.template.json
+!**/.vscode/launch.template.json
+!**/.vscode/extensions.json
+!tests/cases/projects/projectOption/**/node_modules
+!tests/cases/projects/NodeModulesSearch/**/*
+!tests/baselines/reference/project/nodeModules*/**/*
+.idea
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/
+dist/**/*
