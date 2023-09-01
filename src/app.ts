@@ -1,6 +1,6 @@
-import {Map} from "./Game";
+import {Game} from "./Game";
 
-const map = new Map();
-map.loadFromFile('input.txt');
-map.displayMap();
-map.saveToFile('output.txt');
+const game = new Game();
+game.loadFromFile('input.txt');
+game.displayMap();
+game.saveToFile('output.txt');
