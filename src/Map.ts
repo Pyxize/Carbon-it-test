@@ -13,17 +13,19 @@ export class Mountain extends MapCell {
         return '⛰️';
     }
 }
-export class Explorer extends MapCell{
-    explorerName: string;
+export class Explorer extends MapCell {
+    name: string;
 
-    constructor(explorerName: string) {
+    constructor(name: string) {
         super();
-        this.explorerName = explorerName;
+        this.name = name;
     }
+
     display(): string {
-        return `🥷 (${this.explorerName})`;
+        return `🥷 (${this.name})`;
     }
 }
+
 
 export class Treasure extends MapCell {
     treasureCount: number;
