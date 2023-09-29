@@ -1,4 +1,4 @@
-# Carbon It - La carte aux trésors
+# La carte aux trésors
 
 ## Stack techniques
 
